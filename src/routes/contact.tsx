@@ -204,7 +204,7 @@ function ContactSection() {
                       <label className="block text-sm font-medium text-slate-700 mb-2">Project Budget</label>
                       <select name="budget" value={formData.budget} onChange={upd('budget')} className="form-input">
                         <option value="">Select budget range</option>
-                        <option>Under ₹50,000</option>
+                        <option>Under ₹5,000</option>
                         <option>₹50,000 – ₹2,00,000</option>
                         <option>₹2,00,000 – ₹5,00,000</option>
                         <option>₹5,00,000 – ₹20,00,000</option>
