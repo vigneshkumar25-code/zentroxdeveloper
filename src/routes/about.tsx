@@ -16,7 +16,7 @@ function AboutPage() {
       <PageHero
         badge="Who We Are"
         title="About ZENTROX DEVELOPER"
-        subtitle="A technology-focused organization dedicated to delivering innovative software solutions, IT services, and digital transformation across India and beyond."
+        subtitle="A technology-focused organization dedicated to delivering innovative software solutions, IT services, and digital transformation across India."
       />
       <MissionVision />
       <CoreValues />
