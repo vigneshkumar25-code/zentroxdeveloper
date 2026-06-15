@@ -187,7 +187,18 @@ function Footer() {
               Empowering businesses through innovative IT solutions, custom software development, and digital transformation services.
             </p>
             <div className="flex gap-3">
-            
+              {/* Social links */}
+              {['linkedin', 'twitter', 'facebook'].map((s) => (
+                <a key={s} href="#" className="w-9 h-9 rounded-full bg-brand-700 hover:bg-brand-500 flex items-center justify-center transition-colors" aria-label={s}>
+                  <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="10" opacity="0.3"/>
+                    <path d="M8 12h8M12 8v8" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                  </svg>
+                </a>
+              ))}
+            </div>
+          </div>
+
           {/* Quick Links */}
           <div>
             <h4 className="font-heading font-semibold text-white mb-5">Quick Links</h4>
