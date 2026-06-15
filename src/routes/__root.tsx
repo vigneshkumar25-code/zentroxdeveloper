@@ -186,8 +186,7 @@ function Footer() {
             <p className="text-slate-400 text-sm leading-relaxed mb-5">
               Empowering businesses through innovative IT solutions, custom software development, and digital transformation services.
             </p>
-            <div className="flex gap-3">
-            
+                      
           {/* Quick Links */}
           <div>
             <h4 className="font-heading font-semibold text-white mb-5">Quick Links</h4>
